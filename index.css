@@ -1,0 +1,34 @@
+.container_row_col_img {
+  width: 25vw;
+  height: 80vh;
+}
+.pics_container {
+  margin-top: 75px;
+}
+.page2_list-item {
+  font-size: 3vw;
+  color: rgb(1, 1, 99);
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-right: 50px;
+}
+.about-me-container {
+    margin-top: 150px;
+}
+#footer{
+    text-align: center;
+}
+@media (max-width: 600px) {
+  .container_row_col_img {
+    width: 20vw;
+    height: 40vh;
+  }
+  .page2_list-item {
+    font-size: 10vw;
+    list-style: decimal;
+    color: rgb(1, 1, 99);
+  }
+}

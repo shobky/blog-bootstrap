@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">about me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">footer</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br />
+    <!-- End Example Code -->
+    <div id="home" class="container text-center">
+        <div class="row">
+            <div class="col">
+                <img class="container_row_col_img"
+                    src="https://images.unsplash.com/photo-1624711517157-25991163e537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXQlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                    alt="pretty-girl">
+            </div>
+            <div class="col">
+                <img class="container_row_col_img"
+                    src="data:image/jpeg;base64,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"
+                    alt="pretty-girl 2">
+            </div>
+            <div class="col">
+                <img class="container_row_col_img"
+                    src="https://lifetouch.com/wp-content/uploads/2018/06/careerstrailerbox.jpg" alt="pretty girl 3">
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br>
+    <div id="aboutMe" class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h1>Hoppies</h1>
+                <ul class="hobbies">
+                    <li class="page2_list-item">hobbey 1</li>
+                    <li class="page2_list-item">hobbey 2</li>
+                    <li class="page2_list-item">hobbey 3</li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <h1>interests</h1>
+
+                <ul class="interests">
+                    <li class="page2_list-item">interest 1</li>
+                    <li class="page2_list-item">interest 2</li>
+                    <li class="page2_list-item">interest 3</li>
+
+                
+
+                </ul>
+            </div>
+            <div class="col">
+                <h1>career goals</h1>
+
+                <ul class="career_goals">
+                    <li class="page2_list-item">career goal 1</li>
+                    <li class="page2_list-item">career goal 2</li>
+                    <li class="page2_list-item">career goal 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h1>Footer</h1>
+    </div>
+</body>
+
+</html>
